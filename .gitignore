@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+.venv/
+_pycache_/
+*py[cod]
+.env
+# Environment files and secrets
+.env.*
+!.env.example
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+
+# Test and coverage output
+coverage/
+.pytest_cache/
+htmlcov/
+
+# Temporary inspection files
+api-inspection.txt
+backend-structure.txt
+folder-structure.txt
